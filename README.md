@@ -1,0 +1,3 @@
+# Uncommon Type Inference Bug in Hack Function Return Types
+
+This repository demonstrates a subtle bug related to type inference in Hack. The `foo` and `bar` functions lack explicit return type declarations, which might lead to unexpected behavior depending on the Hack version and how these functions are integrated into other modules or programs.  The solution provides explicit return type annotations to ensure predictable behavior and maintain code clarity.
